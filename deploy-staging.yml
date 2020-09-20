@@ -85,7 +85,7 @@ metadata:
 type: Opaque
 stringData:
   username: admin
-  password: 123456789
+  password: "123456789"
   database: dbblog
 ---
 apiVersion: extensions/v1beta1
