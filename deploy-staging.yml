@@ -94,7 +94,7 @@ metadata:
   namespace: production
   name: wordpress-production
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+#   nginx.ingress.kubernetes.io/rewrite-target: /
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
 spec:
   rules:
