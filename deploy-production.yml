@@ -53,7 +53,7 @@ spec:
         name: wordpress
         env:
         - name: WORDPRESS_DB_HOST
-          value: kube.chscaweclwd6.ap-southeast-1.rds.amazonaws.com
+          value: database-1.chscaweclwd6.ap-southeast-1.rds.amazonaws.com
         - name: WORDPRESS_DB_PASSWORD
           valueFrom:
             secretKeyRef:
