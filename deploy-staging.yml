@@ -98,7 +98,7 @@ metadata:
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
 spec:
   rules:
-  - host: blog.isrudisme.xyz
+  - host: s-blog.isrudisme.xyz
     http:
       paths:
       #- path: /
